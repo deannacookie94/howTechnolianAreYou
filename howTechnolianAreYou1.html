@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="howTechnolianAreYou.css">
+	<link href='https://fonts.googleapis.com/css?family=Amatica+SC|Lakki+Reddy|Rubik+Mono+One|Henny+Penny|Lato' rel='stylesheet' type='text/css'>
+	<script src="howTechnolianAreYou.js"></script>
+	<title>How Technolian Are You?</title>
+</head>
+
+<body>
+
+<div id="username">
+	<h2> Before we begin, what's your name? </h2>
+</div>
+
+
+<input type="text" name="username" id="enterUsername"> 
+
+<br>
+
+<div id="submit">
+	<input type="submit" onclick="clicked()" value="Ready, Set, Go!" id="submitUsername">
+</div>
+
+<div id="instructions">
+<p> Perfect! Answer the following questions, then hit submit to find out how Technolian you are on a scale from fist to five! </p>
+</div>
+
+<div id="okay">
+<input type="submit" onclick="question1()" value="Okay!" id="start">
+</div>
+
+<!--Question 1-->
+
+<div id="question1">
+<p>Do you know what it means to rate something on a scale from fist to five?</p>
+
+<div id="yes">
+<button type="button" id="yes" onclick="question2();">Of course!</button>
+</div>
+
+<div id="no">
+<button type="button" id="no" onclick="question2();">Idk?</button>
+</div>
+
+</div>
+
+<!--Question 2-->
+
+<div id="question2">
+<p>On which day of the week are Technole general body meetings held?</p>
+
+<div id="monday">
+<button type="button" id="monday" onclick="question3();">Monday</button>
+</div>
+
+<div id="tuesday">
+<button type="button" id="tuesday" onclick="question3();">Tuesday</button>
+</div>
+
+<div id="wednesday">
+<button type="button" id="wednesday" onclick="question3();">Wednesday</button>
+</div>
+
+<div id="thursday">
+<button type="button" id="thursday" onclick="question3();">Thursday</button>
+</div>
+
+<div id="friday">
+<button type="button" id="friday" onclick="question3();">Friday</button>
+</div>
+
+</div>
+
+<!--Question 3-->
+
+<div id="question3">
+<p>Which semester did Technole have a Big Little Program?</p>
+
+<div id="spring2014">
+<button type="button" id="spring2014" onclick="question4();">Spring 2014</button>
+</div>
+
+<div id="fall2014">
+<button type="button" id="fall2014" onclick="question4();">Fall 2014</button>
+</div>
+
+<div id="spring2015">
+<button type="button" id="spring2015" onclick="question4();">Spring 2015</button>
+</div>
+
+<div id="fall2015">
+<button type="button" id="fall2015" onclick="question4();">Fall 2015</button>
+</div>
+
+</div>
+
+<!--Question 4-->
+
+<div id="question4">
+<p>Where did the Technolians go for their Spring 2016 Retreat?</p>
+
+<div id="miami">
+<button type="button" id="miami" onclick="question5();">Miami</button>
+</div>
+
+<div id="stGeorgeIsland">
+<button type="button" id="stGeorgeIsland" onclick="question5();">St. George Island</button>
+</div>
+
+<div id="panamaCityBeach">
+<button type="button" id="panamaCityBeach" onclick="question5();">Panama City Beach</button>
+</div>
+
+
+</div>
+
+
+
+</body>
+</html>

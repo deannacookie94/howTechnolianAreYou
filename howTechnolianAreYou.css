@@ -1,0 +1,171 @@
+body{
+	background-color:white;
+}
+
+h1{
+	font-size: 60px;
+	width: 1200px;
+	margin-left: 50px;
+	margin-top: 230px;
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+button{
+	font-size: 40px;
+	margin-left: 500px;
+	background-color: black;
+	color: white;
+	font-family: 'Amatica SC', cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited{
+	color: white;
+}
+
+a:hover{
+	color: #4BFFE1;
+}
+
+#username{
+	font-size: 27px;
+	width: 1200px;
+	margin-left: 70px;
+	margin-top: 230px;
+	font-family: 'Rubik Mono One', sans-serif;
+	position: relative;
+}
+
+
+input[type=submit]{
+	font-size: 40px;
+	margin-left: 520px;
+	margin-top: 30px;
+	background-color: black;
+	color: white;
+	font-family: 'Amatica SC', cursive;
+
+}
+
+input[type=text]{
+	font-size: 40px; 
+	font-family: 'Amatica SC', cursive; 
+	text-align: center; 
+	margin-left: 480px;
+}
+
+#submitUsername:hover, #start:hover, #yes:hover, #no:hover, #monday:hover, #tuesday:hover, #wednesday:hover, #thursday:hover, #friday:hover, #spring2014:hover, #fall2014:hover, #spring2015:hover, #fall2015:hover, #miami:hover, #stGeorgeIsland:hover, #panamaCityBeach:hover {
+	color: #4BFFE1;
+}
+
+#instructions{
+	display: none;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 40px;
+	width: 800px;
+	text-align: center;
+	margin-left: 250px;
+	margin-top: 120px;
+}
+
+#question1, #question2, #question3, #question4{
+	display: none;
+}
+
+#question1 p, #question2 p, #question3 p, #question4 p{
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 40px;
+	width: 800px;
+	text-align: center;
+	margin-left: 250px;
+	margin-top: 120px;
+}
+
+#okay{
+	display: none;	
+	margin-left: 100px;
+	margin-top: -40px;
+}
+
+
+#yes{
+	float: left;
+	margin-right: 50px;
+}
+
+#no{
+	float: left;
+	margin-left: -30px;
+	margin-top: 0px;	
+}
+
+#monday{
+	float: left;
+	margin-left: 65px;
+}
+
+#tuesday{
+	float: left;
+	margin-left: 50px;
+}
+
+#wednesday{
+	float: left;
+	margin-left: 50px;
+}
+
+#thursday{
+	float: left;
+	margin-left: 50px;
+}
+
+#friday{
+	float: left;
+	margin-left: 50px;
+}
+
+#spring2014{
+	float: left;
+	margin-left: 65px;
+}
+
+#fall2014{
+	float: left;
+	margin-left: 50px;
+}
+
+#spring2015{
+	float: left;
+	margin-left: 50px;
+}
+
+#fall2015{
+	float: left;
+	margin-left: 50px;
+}
+
+#miami{
+	float: left;
+	margin-left: 150px;
+}
+
+#stGeorgeIsland{
+	float: left;
+	margin-left: 20px;
+}
+
+#panamaCityBeach{
+	float: left;
+	margin-left: 370px;
+	margin-top: -34px;
+}
+
+
+
+
+
+
+
